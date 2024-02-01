@@ -1,0 +1,459 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgba(22, 22, 23, .88);
+
+    backdrop-filter: blur(50px);
+    opacity: .9;
+    width: 1535px;
+    height: 40px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+nav li {
+    display: inline;
+    color: rgb(230, 228, 228);
+    padding: 25px 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(230, 228, 228);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+nav li img {
+    width: 15px;
+    color: antiquewhite;
+    align-content: center;
+}
+
+nav ul {
+    text-align: center;
+    padding: 7px;
+}
+
+.g-pic {
+    width: 1535px;
+    height: 575px;
+    background-image: url("images/WhatsApp_Image_2024-01-10_at_14.10.58_ec79e3b9-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.Sizing{
+    width: 310px;
+    height: 62px;
+}
+
+.gp-img{
+    
+    text-align: center;
+    /* padding-left: auto;
+   padding-right: auto; */
+   padding: 400px 200px;
+}
+.gp-content-1{
+    padding: 3px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+font-weight: bold;
+}
+.gp-content-2{
+    padding: 3px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+font-weight: bold;
+color: rgb(138, 136, 136);
+}
+
+.b-apple{
+    margin: 10px 0px;
+    width: 1535px;
+    height: 565px;
+    background-image: url("images/balck-apple.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.bp-img{
+    
+    text-align: center;
+   padding: 30px 200px;
+   color: white;
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.bp-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+color: white;
+}
+
+.w-apple{
+    margin: 10px 0px;
+    width: 1535px;
+    height: 565px;
+    background-image: url("images/hero_iphone15_announce.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.wp-img{
+    
+    text-align: center;
+   padding: 70px 200px;
+   color:black;
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.wp-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+/* color: white; */
+}
+
+.b-watch{
+    margin: 10px 5px;
+    width: 49%;
+    height: 716px;
+    background-image: url("images/promo_apple_watch_series_9_order.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+.bw-img{
+    
+    text-align: center;
+   padding: 60px 200px;
+   color:rgb(255, 255, 255);
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.bw-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+/* color: white; */
+}
+h1{
+    font-size: 40px;
+}
+
+
+.i-pad{
+    margin: 10px 5px;
+    width: 49%;
+    height: 716px;
+    background-image: url("images/promo_mbp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+.ip-img{
+    
+    text-align: center;
+   padding: 60px 200px;
+   color:rgb(0, 0, 0);
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.ip-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+/* color: white; */
+}
+
+.w-watch{
+    margin: 10px 5px;
+    width: 49%;
+    height: 716px;
+    background-image: url("images/k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+.w-img{
+    
+    text-align: center;
+   padding: 60px 200px;
+   color:rgb(0, 0, 0);
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.w-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+/* color: white; */
+}
+
+
+
+.bg-watch{
+    margin: 10px 5px;
+    width: 49%;
+    height: 716px;
+    background-image: url("images/promo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+.bg-img{
+    
+    text-align: center;
+   padding: 60px 200px;
+   color:rgb(255, 255, 255);
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.bg-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+/* color: white; */
+}
+
+.t-iphone{
+    margin: 10px 5px;
+    width: 49%;
+    height: 716px;
+    background-image: url("images/promo_iphone_tradein.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+.ti-img{
+    
+    text-align: center;
+   padding: 60px 200px;
+   color:rgb(0, 0, 0);
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.ti-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+/* color: white; */
+}
+
+
+.w-paper{
+    margin: 10px 5px;
+    width: 49%;
+    height: 716px;
+    background-image: url("images/tile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+.wp-img{
+    
+    text-align: center;
+   padding: 60px 200px;
+   color:rgb(0, 0, 0);
+   font-size: 30px;
+   font-family: 'Rubik', sans-serif;
+}
+.wp-content{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+/* color: white; */
+}
+
+.long-poster{
+    margin: 10px 0px;
+    /* width: 1600px; */
+    height: 565px;
+    background-image: url("images/crimnalrecord.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.footer-box{
+    margin: 10px 6px;
+    width: 1535px;
+    height: 800px;
+    background-color: rgb(223, 223, 223);
+    color: rgb(83, 81, 81);
+    
+}
+
+.f-containt-1{
+    font-family: 'Rubik', sans-serif;
+    font-size: smaller;
+    padding-left: 225px;
+    margin-right: 225px;
+    padding-top: 20px;
+    
+}
+.f-containt-2{
+    padding: 7px 0px;
+}
+.f-containt-3{
+    padding: 7px 0px;
+}
+.f-containt-4{
+    padding: 7px 0px;
+}
+.f-containt-5{
+    padding: 7px 0px;
+}
+.f-containt-6{
+    padding: 7px 0px;
+}
+.f-containt-7{
+    padding: 7px 0px;
+}
+.f-containt-8{
+    padding: 7px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.footer{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-444{
+
+padding: 5px 195px;
+
+    
+}
+
+
+.footer{
+    display: inline;
+}
+
+
+
+.f-1st{
+    background-color: lightgrey;
+    width: 1000px;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    word-spacing: 2px;
+    margin: 0px 315px
+}
+
+
+
+.f-1st > ul{
+    text-align: left ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    list-style-type: none;  
+}
+a{
+    text-decoration: none;
+    
+}
+.f-2st{
+    background-color: lightgrey;
+    width: 1000px;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    word-spacing: 2px;
+    margin: 0px 315px;
+    float: right;
+   
+}
+.f-2st > ul{
+    text-align: left ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+
+.footer{
+    background-color: lightgrey;
+    width: 1610px;
+    height: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    word-spacing: 2px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+}
+.footer-col{
+    width: 20%;
+    padding: 0px 20px;
+    text-transform: capitalize;
+    
+
+}
